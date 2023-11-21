@@ -4,7 +4,8 @@ import OuterContainer from './OuterContainer';
 
 function App() {
   return (
-    <div className="App bg-slate-950 w-full h-full">
+    <div className="App bg-slate-950 w-full 
+    h-[100vh] flex justify-center items-center">
    <OuterContainer />
     </div>
   );

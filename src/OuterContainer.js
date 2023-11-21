@@ -20,7 +20,7 @@ console.log("state",state)
     }
     
    return (
-    <div className="bg-white w-full h-[100vh] max-w-md m-auto p-10">
+    <div className=" bg-white w-full  max-w-md m-auto p-10">
         {state.map((userData) => <InnerContainer bioData={userData} />)}
 {/* <InnerContainer /> */}
     </div>
